@@ -1,0 +1,75 @@
+/*Estilos de Columnas Responsive*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	text-align: center;
+	background-color: #333;
+}
+
+.cards {
+	width: 90%;
+	height: 500px;
+	margin: 200px auto;
+	font-size: 0;
+}
+
+.card {
+	position: relative;
+	display: inline-block;
+	width: 300px;
+	text-align: left;
+	height: 100%;
+	padding-top: 3em;
+	padding-left: 2em;
+	font-size: 1rem;
+	color: hsl(0 0% 100% / 0.75);
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+.card-title {
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	font-family: 'Big Shoulders Display', cursive;
+}
+
+.card-description {
+	width: 200px;
+}
+
+.card-orange {
+	background-color: hsl(31, 77%, 52%);
+}
+
+.card-cyan {
+	background-color: hsl(175, 100%, 33%);
+}
+
+.card-dark-cyan {
+	background-color: hsl(175, 100%, 13%);
+}
+
+.card-cta {
+	position: absolute;
+	padding: .7em 2em;
+	background-color: #fff;
+	border-radius: 1.2em;
+	text-decoration: none;
+	bottom: 50px;
+}
+
+.card-cta-orange {
+	color: hsl(31, 77%, 52%);
+}
+
+.card-cta-cyan {
+	color: hsl(175, 100%, 33%);
+}
+
+.card-cta-dark-cyan {
+	color: hsl(175, 100%, 13%);
+}
